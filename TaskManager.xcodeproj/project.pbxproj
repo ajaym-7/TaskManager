@@ -24,25 +24,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9534FEF22D9ABAD1009D05C9 /* ClaudeDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClaudeDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9534FF022D9ABAD3009D05C9 /* ClaudeDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClaudeDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9534FF0C2D9ABAD3009D05C9 /* ClaudeDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClaudeDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9534FEF22D9ABAD1009D05C9 /* TaskManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9534FF022D9ABAD3009D05C9 /* TaskManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9534FF0C2D9ABAD3009D05C9 /* TaskManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9534FEF42D9ABAD1009D05C9 /* ClaudeDoList */ = {
+		9534FEF42D9ABAD1009D05C9 /* TaskManager */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ClaudeDoList;
+			path = TaskManager;
 			sourceTree = "<group>";
 		};
-		9534FF052D9ABAD3009D05C9 /* ClaudeDoListTests */ = {
+		9534FF052D9ABAD3009D05C9 /* TaskManagerTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ClaudeDoListTests;
+			path = TaskManagerTests;
 			sourceTree = "<group>";
 		};
-		9534FF0F2D9ABAD3009D05C9 /* ClaudeDoListUITests */ = {
+		9534FF0F2D9ABAD3009D05C9 /* TaskManagerUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ClaudeDoListUITests;
+			path = TaskManagerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		9534FEE92D9ABAD1009D05C9 = {
 			isa = PBXGroup;
 			children = (
-				9534FEF42D9ABAD1009D05C9 /* ClaudeDoList */,
-				9534FF052D9ABAD3009D05C9 /* ClaudeDoListTests */,
-				9534FF0F2D9ABAD3009D05C9 /* ClaudeDoListUITests */,
+				9534FEF42D9ABAD1009D05C9 /* TaskManager */,
+				9534FF052D9ABAD3009D05C9 /* TaskManagerTests */,
+				9534FF0F2D9ABAD3009D05C9 /* TaskManagerUITests */,
 				9534FEF32D9ABAD1009D05C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		9534FEF32D9ABAD1009D05C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9534FEF22D9ABAD1009D05C9 /* ClaudeDoList.app */,
-				9534FF022D9ABAD3009D05C9 /* ClaudeDoListTests.xctest */,
-				9534FF0C2D9ABAD3009D05C9 /* ClaudeDoListUITests.xctest */,
+				9534FEF22D9ABAD1009D05C9 /* TaskManager.app */,
+				9534FF022D9ABAD3009D05C9 /* TaskManagerTests.xctest */,
+				9534FF0C2D9ABAD3009D05C9 /* TaskManagerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9534FEF12D9ABAD1009D05C9 /* ClaudeDoList */ = {
+		9534FEF12D9ABAD1009D05C9 /* TaskManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9534FF162D9ABAD3009D05C9 /* Build configuration list for PBXNativeTarget "ClaudeDoList" */;
+			buildConfigurationList = 9534FF162D9ABAD3009D05C9 /* Build configuration list for PBXNativeTarget "TaskManager" */;
 			buildPhases = (
 				9534FEEE2D9ABAD1009D05C9 /* Sources */,
 				9534FEEF2D9ABAD1009D05C9 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				9534FEF42D9ABAD1009D05C9 /* ClaudeDoList */,
+				9534FEF42D9ABAD1009D05C9 /* TaskManager */,
 			);
-			name = ClaudeDoList;
+			name = TaskManager;
 			packageProductDependencies = (
 			);
 			productName = ClaudeDoList;
-			productReference = 9534FEF22D9ABAD1009D05C9 /* ClaudeDoList.app */;
+			productReference = 9534FEF22D9ABAD1009D05C9 /* TaskManager.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9534FF012D9ABAD3009D05C9 /* ClaudeDoListTests */ = {
+		9534FF012D9ABAD3009D05C9 /* TaskManagerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9534FF192D9ABAD3009D05C9 /* Build configuration list for PBXNativeTarget "ClaudeDoListTests" */;
+			buildConfigurationList = 9534FF192D9ABAD3009D05C9 /* Build configuration list for PBXNativeTarget "TaskManagerTests" */;
 			buildPhases = (
 				9534FEFE2D9ABAD3009D05C9 /* Sources */,
 				9534FEFF2D9ABAD3009D05C9 /* Frameworks */,
@@ -131,18 +131,18 @@
 				9534FF042D9ABAD3009D05C9 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				9534FF052D9ABAD3009D05C9 /* ClaudeDoListTests */,
+				9534FF052D9ABAD3009D05C9 /* TaskManagerTests */,
 			);
-			name = ClaudeDoListTests;
+			name = TaskManagerTests;
 			packageProductDependencies = (
 			);
 			productName = ClaudeDoListTests;
-			productReference = 9534FF022D9ABAD3009D05C9 /* ClaudeDoListTests.xctest */;
+			productReference = 9534FF022D9ABAD3009D05C9 /* TaskManagerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9534FF0B2D9ABAD3009D05C9 /* ClaudeDoListUITests */ = {
+		9534FF0B2D9ABAD3009D05C9 /* TaskManagerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9534FF1C2D9ABAD3009D05C9 /* Build configuration list for PBXNativeTarget "ClaudeDoListUITests" */;
+			buildConfigurationList = 9534FF1C2D9ABAD3009D05C9 /* Build configuration list for PBXNativeTarget "TaskManagerUITests" */;
 			buildPhases = (
 				9534FF082D9ABAD3009D05C9 /* Sources */,
 				9534FF092D9ABAD3009D05C9 /* Frameworks */,
@@ -154,13 +154,13 @@
 				9534FF0E2D9ABAD3009D05C9 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				9534FF0F2D9ABAD3009D05C9 /* ClaudeDoListUITests */,
+				9534FF0F2D9ABAD3009D05C9 /* TaskManagerUITests */,
 			);
-			name = ClaudeDoListUITests;
+			name = TaskManagerUITests;
 			packageProductDependencies = (
 			);
 			productName = ClaudeDoListUITests;
-			productReference = 9534FF0C2D9ABAD3009D05C9 /* ClaudeDoListUITests.xctest */;
+			productReference = 9534FF0C2D9ABAD3009D05C9 /* TaskManagerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9534FEED2D9ABAD1009D05C9 /* Build configuration list for PBXProject "ClaudeDoList" */;
+			buildConfigurationList = 9534FEED2D9ABAD1009D05C9 /* Build configuration list for PBXProject "TaskManager" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9534FEF12D9ABAD1009D05C9 /* ClaudeDoList */,
-				9534FF012D9ABAD3009D05C9 /* ClaudeDoListTests */,
-				9534FF0B2D9ABAD3009D05C9 /* ClaudeDoListUITests */,
+				9534FEF12D9ABAD1009D05C9 /* TaskManager */,
+				9534FF012D9ABAD3009D05C9 /* TaskManagerTests */,
+				9534FF0B2D9ABAD3009D05C9 /* TaskManagerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		9534FF042D9ABAD3009D05C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9534FEF12D9ABAD1009D05C9 /* ClaudeDoList */;
+			target = 9534FEF12D9ABAD1009D05C9 /* TaskManager */;
 			targetProxy = 9534FF032D9ABAD3009D05C9 /* PBXContainerItemProxy */;
 		};
 		9534FF0E2D9ABAD3009D05C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9534FEF12D9ABAD1009D05C9 /* ClaudeDoList */;
+			target = 9534FEF12D9ABAD1009D05C9 /* TaskManager */;
 			targetProxy = 9534FF0D2D9ABAD3009D05C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -395,7 +395,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ClaudeDoList/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TaskManager/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -408,11 +408,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Ajay-s-Project.ClaudeDoList";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ajay-s-Project.TaskManager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -423,7 +423,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ClaudeDoList/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TaskManager/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -436,11 +436,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Ajay-s-Project.ClaudeDoList";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ajay-s-Project.TaskManager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -448,17 +448,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Ajay-s-Project.ClaudeDoListTests";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "Ajay-s-Project.TaskManagerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClaudeDoList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClaudeDoList";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskManager";
 			};
 			name = Debug;
 		};
@@ -466,28 +468,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Ajay-s-Project.ClaudeDoListTests";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "Ajay-s-Project.TaskManagerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClaudeDoList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClaudeDoList";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskManager";
 			};
 			name = Release;
 		};
 		9534FF1D2D9ABAD3009D05C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Ajay-s-Project.ClaudeDoListUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ajay-s-Project.TaskManagerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -499,11 +504,12 @@
 		9534FF1E2D9ABAD3009D05C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Ajay-s-Project.ClaudeDoListUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ajay-s-Project.TaskManagerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -515,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9534FEED2D9ABAD1009D05C9 /* Build configuration list for PBXProject "ClaudeDoList" */ = {
+		9534FEED2D9ABAD1009D05C9 /* Build configuration list for PBXProject "TaskManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9534FF142D9ABAD3009D05C9 /* Debug */,
@@ -524,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9534FF162D9ABAD3009D05C9 /* Build configuration list for PBXNativeTarget "ClaudeDoList" */ = {
+		9534FF162D9ABAD3009D05C9 /* Build configuration list for PBXNativeTarget "TaskManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9534FF172D9ABAD3009D05C9 /* Debug */,
@@ -533,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9534FF192D9ABAD3009D05C9 /* Build configuration list for PBXNativeTarget "ClaudeDoListTests" */ = {
+		9534FF192D9ABAD3009D05C9 /* Build configuration list for PBXNativeTarget "TaskManagerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9534FF1A2D9ABAD3009D05C9 /* Debug */,
@@ -542,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9534FF1C2D9ABAD3009D05C9 /* Build configuration list for PBXNativeTarget "ClaudeDoListUITests" */ = {
+		9534FF1C2D9ABAD3009D05C9 /* Build configuration list for PBXNativeTarget "TaskManagerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9534FF1D2D9ABAD3009D05C9 /* Debug */,
